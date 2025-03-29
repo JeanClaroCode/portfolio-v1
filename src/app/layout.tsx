@@ -1,18 +1,13 @@
-/* eslint-disable camelcase */
 'use client'
 
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import './globals.css'
 import { Toaster } from 'react-hot-toast'
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
+const roboto = Roboto({
+  variable: '--font-roboto',
   subsets: ['latin'],
-})
-
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
+  weight: ['400', '700'], // Adicione os pesos que você deseja usar
 })
 
 export default function RootLayout({
@@ -21,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en" className={roboto.variable}>
       <body>
         {children}
         <Toaster
