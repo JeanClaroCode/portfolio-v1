@@ -116,7 +116,11 @@ export default function ProjectsContainer() {
           </div>
           <div className="mt-2 flex items-center">
             <button className="border-2 border-ametista hover:underline p-2 rounded-2xl">
-              <a href="https://github.com/JeanClaroCode/ignite-call">
+              <a
+                href="
+              
+              https://www.linkedin.com/posts/jeanclaro_meu-primeiro-projeto-fullstack-sistema-activity-7254110312121962499--k3p?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC-0eWgBEjoUbNQyknBqh_W5U6bFRuz6Lqw"
+              >
                 Para mais informações
               </a>
             </button>
@@ -172,7 +176,10 @@ export default function ProjectsContainer() {
           </div>
           <div className="mt-2 flex items-center">
             <button className="border-2 border-ametista hover:underline p-2 rounded-2xl">
-              <a href="https://www.linkedin.com/posts/jeanclaro_meu-primeiro-projeto-fullstack-sistema-activity-7254110312121962499--k3p?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC-0eWgBEjoUbNQyknBqh_W5U6bFRuz6Lqw">
+              <a
+                href="
+              https://github.com/JeanClaroCode/ignite-call"
+              >
                 Para mais informações
               </a>
             </button>
