@@ -33,7 +33,7 @@ export default function ProjectsContainer() {
     const isInView = useInView(ref, { amount: 0.01, once: true })
 
     const cardVariants = {
-      hidden: { x: index % 2 === 0 ? '-50%' : '50%', opacity: 0 },
+      hidden: { x: index % 2 === 0 ? 'md:-50vh' : 'md:50vh', opacity: 0 },
       visible: { x: 0, opacity: 1, transition: { duration: 0.5 } },
     }
 
@@ -189,7 +189,8 @@ export default function ProjectsContainer() {
       <Card index={2}>
         <div className=" flex flex-col items-center text-center justify-between">
           <div className=" flex flex-col items-center text-center">
-            <h1 className=" mb-2 text-2xl text-center ">Ignite Shop</h1>
+            <h1 className="text-2xl text-center ">Ignite Shop</h1>
+            <span className="text-[10px] invisible">(space)</span>
             <VideoPlayer videosrc="/Projects/ignite-shop.mp4" />
             <div className="flex flex-wrap  items-center text-center justify-center space-x-4 mt-2">
               <div>
@@ -346,7 +347,8 @@ export default function ProjectsContainer() {
       <Card index={5}>
         <div className="  flex flex-col items-center text-center justify-between ">
           <div className=" flex flex-col items-center text-center  ">
-            <h1 className=" mb-2 text-2xl text-center">Gestão de Vagas</h1>
+            <h1 className="text-2xl text-center">Gestão de Vagas</h1>
+            <span className="text-[10px] invisible">(space)</span>
             <div className="overflow-hidden flex items-center justify-center cursor-pointer ">
               <div className="border-4 border-darkpurple rounded flex items-center w-full justify-center">
                 <Image

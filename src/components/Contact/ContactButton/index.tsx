@@ -12,7 +12,7 @@ export function ContactDialog() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button className="bg-darkpurple hover:bg-ametista cursor-pointer rounded-2xl text-lavanda text-4xl  h-20">
+        <Button className="bg-darkpurple hover:bg-ametista cursor-pointer rounded-2xl text-lavanda text-xs md:text-4xl  h-auto md:h-20">
           Entre em Contato
         </Button>
       </DialogTrigger>

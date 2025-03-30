@@ -62,7 +62,13 @@ export default function ToolsStacks() {
             className="mt-2 space-x-3 flex items-center"
             variants={item}
           >
-            <Image src={tech.icon} alt={tech.name} width={40} height={40} />
+            <Image
+              src={tech.icon}
+              alt={tech.name}
+              width={15}
+              height={15}
+              className="sm:w-[40px] sm:h-[40px]"
+            />
             <span>{tech.name}</span>
           </motion.div>
         ))}
