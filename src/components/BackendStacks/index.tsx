@@ -14,7 +14,7 @@ import mongoDbIcon from '@/assets/Backend/mongo.svg'
 import jwtIcon from '@/assets/Backend/jwt.svg'
 import oAuthIcon from '@/assets/Backend/oauth.svg'
 import stripeIcon from '@/assets/Backend/stripe.svg'
-import { useEffect, useRef } from 'react'
+import { useRef } from 'react'
 
 const container = {
   hidden: { opacity: 0 },
@@ -58,10 +58,6 @@ export default function BackendStacks() {
     { icon: oAuthIcon, name: 'Oauth' },
     { icon: stripeIcon, name: 'Stripe' },
   ]
-
-  useEffect(() => {
-    console.log('isInView:', isInView)
-  }, [isInView])
 
   return (
     <motion.div

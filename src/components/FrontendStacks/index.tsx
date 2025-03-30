@@ -17,7 +17,7 @@ import radixIcon from '../../assets/Frontend/radix.svg'
 import viteIcon from '@/assets/Frontend/vite.svg'
 import framerMotion from '@/assets/Frontend/framer-motion.svg'
 
-import { useEffect, useRef } from 'react'
+import { useRef } from 'react'
 
 const container = {
   hidden: { opacity: 0 },
@@ -62,10 +62,6 @@ export default function FrontendStacks() {
     { icon: viteIcon, name: 'Vite' },
     { icon: framerMotion, name: 'Framer Motion' },
   ]
-
-  useEffect(() => {
-    console.log('isInView:', isInView)
-  }, [isInView])
 
   return (
     <motion.div

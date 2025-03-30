@@ -88,7 +88,10 @@ export default function Home() {
               <span>📍 Brasília - DF </span>
             </div>
             <div>
-              <a className="hover:underline" href="https://wa.me/5561992689268">
+              <a
+                className="md:hover:underline lg:no-underline underline"
+                href="https://wa.me/5561992689268"
+              >
                 (61) 99268-9268
               </a>
             </div>
