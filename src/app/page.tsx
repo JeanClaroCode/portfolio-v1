@@ -43,7 +43,7 @@ export default function Home() {
       <div className="flex flex-col px-4 xl:px-60  text-white w-full h-full">
         {isClient && <ParticlesComponent id="particles" />}
         <div className="flex items-center justify-center w-full mt-5">
-          <header className="hidden md:block flex items-center justify-between p-6 border-2 rounded-3xl border-ametista text-ametista text-xl w-auto h-auto space-x-4">
+          <header className="hidden md:block flex items-center justify-between p-6 border-2 rounded-3xl border-ametista text-lavanda text-xl w-auto h-auto space-x-4">
             <span
               onClick={() => handleScroll('sobre')}
               className="hover:underline cursor-pointer"
@@ -160,17 +160,17 @@ export default function Home() {
               </span>
             </div>
             <div className="xl:text-2xl space-y-4 xl:space-y-0 flex flex-col">
-              <span>
-                <span className="hidden xl:block"> - </span>
+              <span className="flex ">
+                <span className="hidden mr-2 xl:block"> - </span>
                 Desenvolvimento de chatbot em Python para suporte a
                 profissionais da saúde mental
               </span>
-              <span>
-                <span className="hidden xl:block"> - </span> Coleta e análise de
-                dados para melhoria contínua do chatbot
+              <span className="flex ">
+                <span className="hidden mr-2 xl:block"> - </span> Coleta e
+                análise de dados para melhoria contínua do chatbot
               </span>
-              <span>
-                <span className="hidden xl:block"> - </span>Documentação de
+              <span className="flex ">
+                <span className="hidden mr-2 xl:block"> - </span>Documentação de
                 software UML e implementação de soluções AWS para hospedagem e
                 gerenciamento do chatbot.
               </span>
