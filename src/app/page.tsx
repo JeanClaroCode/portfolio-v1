@@ -133,7 +133,7 @@ export default function Home() {
             <span className="xl:text-5xl text-2xl">Projetos</span>
           </div>
 
-          <div className="grid xl:grid-cols-2 gap-x-10 gap-y-10 w-full px-6 mt-11">
+          <div className="overflow-hidden grid xl:grid-cols-2 gap-x-10 gap-y-10 w-full px-6 mt-11">
             <ProjectsContainer />
           </div>
         </div>

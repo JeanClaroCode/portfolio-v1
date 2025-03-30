@@ -33,7 +33,7 @@ export default function ProjectsContainer() {
     const isInView = useInView(ref, { amount: 0.01, once: true })
 
     const cardVariants = {
-      hidden: { x: index % 2 === 0 ? 'md:-50vh' : 'md:50vh', opacity: 0 },
+      hidden: { x: index % 2 === 0 ? '-50%' : '50%', opacity: 0 },
       visible: { x: 0, opacity: 1, transition: { duration: 0.5 } },
     }
 
@@ -43,7 +43,6 @@ export default function ProjectsContainer() {
         initial="hidden"
         animate={isInView ? 'visible' : 'hidden'}
         variants={cardVariants}
-        style={{ overflow: 'hidden' }}
       >
         {children}
       </motion.div>
