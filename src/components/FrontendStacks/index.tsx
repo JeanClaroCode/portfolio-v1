@@ -48,7 +48,7 @@ export default function FrontendStacks() {
 
   const technologies = [
     { icon: typescriptIcon, name: 'TypeScript' },
-    { icon: reactIcon, name: 'React' },
+    { icon: reactIcon, name: 'React/React Native' },
     { icon: nextIcon, name: 'Next.js' },
     { icon: reduxIcon, name: 'Redux' },
     { icon: axiosIcon, name: 'Axios' },
