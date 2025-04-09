@@ -151,10 +151,7 @@ export default function Home() {
 
           <div className="mt-3.5 space-y-4">
             <div className="xl:text-3xl flex flex-col text-ametista">
-              <span>
-                GPCA | Pesquisador Voluntário em Desenvolvimento de Chatbot para
-                Saúde Mental
-              </span>
+              <span>GPCA | Desenvolvedor (Voluntário)</span>
               <span className="text-white">
                 📍 Brasília - DF | 05/2024 - Presente
               </span>
@@ -162,17 +159,20 @@ export default function Home() {
             <div className="xl:text-2xl space-y-4 xl:space-y-0 flex flex-col">
               <span className="flex ">
                 <span className="hidden mr-2 xl:block"> - </span>
-                Desenvolvimento de chatbot em Python para suporte a
-                profissionais da saúde mental
+                Desenvolvimento utilizando Python/Flask e Testes
               </span>
               <span className="flex ">
-                <span className="hidden mr-2 xl:block"> - </span> Coleta e
-                análise de dados para melhoria contínua do chatbot
+                <span className="hidden mr-2 xl:block"> - </span>
+                Desenvolvimento/Integração com API REST e implementação de
+                autenticação
               </span>
               <span className="flex ">
-                <span className="hidden mr-2 xl:block"> - </span>Documentação de
-                software UML e implementação de soluções AWS para hospedagem e
-                gerenciamento do chatbot.
+                <span className="hidden mr-2 xl:block"> - </span>
+                Implementação de soluções de hospedagem e gerenciamento na AWS
+              </span>
+              <span className="flex ">
+                <span className="hidden mr-2 xl:block"> - </span>
+                Gestão de dados utilizando PostgreSQL/AWS RDS
               </span>
             </div>
             <div className="mt-3 flex flex-wrap space-x-3 space-y-3">
