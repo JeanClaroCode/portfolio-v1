@@ -21,7 +21,6 @@ import ProjectsContainer from '@/components/ProjectsContainer'
 
 import { ContactDialog } from '@/components/Contact/ContactButton'
 
-
 import Experience from '@/components/Experience'
 
 export default function Home() {
