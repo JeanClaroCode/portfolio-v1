@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import typescriptIcon from '@/assets/Frontend/typescript.svg'
 import nodeIcon from '@/assets/Backend/nodejs.svg'
 import restApiIcon from '@/assets/Backend/restAPi.svg'
