@@ -21,11 +21,7 @@ import ProjectsContainer from '@/components/ProjectsContainer'
 
 import { ContactDialog } from '@/components/Contact/ContactButton'
 
-import typescriptIcon from '@/assets/Frontend/typescript.svg'
-import nodeIcon from '@/assets/Backend/nodejs.svg'
-import restApiIcon from '@/assets/Backend/restAPi.svg'
-import n8nIcon from '@/assets/Backend/n8n.png'
-import xmlIcon from '@/assets/Backend/xml.svg'
+
 import Experience from '@/components/Experience'
 
 export default function Home() {
