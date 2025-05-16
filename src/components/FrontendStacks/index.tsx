@@ -16,6 +16,9 @@ import tailwindIcon from '../../assets/Frontend/tailwind.svg'
 import radixIcon from '../../assets/Frontend/radix.svg'
 import viteIcon from '@/assets/Frontend/vite.svg'
 import framerMotion from '@/assets/Frontend/framer-motion.svg'
+import angularIcon from '@/assets/Frontend/angular.svg'
+import jestIcon from '@/assets/Frontend/jest.svg'
+import cypressIcon from '@/assets/Frontend/cypress.svg'
 
 import { useRef } from 'react'
 
@@ -50,6 +53,7 @@ export default function FrontendStacks() {
     { icon: typescriptIcon, name: 'TypeScript' },
     { icon: reactIcon, name: 'React/React Native' },
     { icon: nextIcon, name: 'Next.js' },
+    { icon: angularIcon, name: 'Angular' },
     { icon: reduxIcon, name: 'Redux' },
     { icon: axiosIcon, name: 'Axios' },
     { icon: nextAuthIcon, name: 'NextAuth.js' },
@@ -61,6 +65,8 @@ export default function FrontendStacks() {
     { icon: radixIcon, name: 'Radix' },
     { icon: viteIcon, name: 'Vite' },
     { icon: framerMotion, name: 'Framer Motion' },
+    { icon: jestIcon, name: 'Jest' },
+    { icon: cypressIcon, name: 'Cypress' },
   ]
 
   return (

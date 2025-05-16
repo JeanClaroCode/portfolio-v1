@@ -14,6 +14,9 @@ import mongoDbIcon from '@/assets/Backend/mongo.svg'
 import jwtIcon from '@/assets/Backend/jwt.svg'
 import oAuthIcon from '@/assets/Backend/oauth.svg'
 import stripeIcon from '@/assets/Backend/stripe.svg'
+import kotlinIcon from '@/assets/Backend/kotlin.svg'
+import redisIcon from '@/assets/Backend/redis.svg'
+
 import { useRef } from 'react'
 
 const container = {
@@ -49,11 +52,13 @@ export default function BackendStacks() {
     { icon: expressIcon, name: 'Express.js' },
     { icon: prismaIcon, name: 'Prisma' },
     { icon: javaIcon, name: 'Java' },
+    { icon: kotlinIcon, name: 'Kotlin' },
     { icon: springBootIcon, name: 'Spring Boot' },
     { icon: hibernateIcon, name: 'Hibernate' },
     { icon: junitIcon, name: 'Junit' },
     { icon: postgresqlIcon, name: 'PostgreSQL' },
     { icon: mongoDbIcon, name: 'MongoDB' },
+    { icon: redisIcon, name: 'Redis' },
     { icon: jwtIcon, name: 'JWT' },
     { icon: oAuthIcon, name: 'Oauth' },
     { icon: stripeIcon, name: 'Stripe' },

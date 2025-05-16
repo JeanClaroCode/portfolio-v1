@@ -21,6 +21,13 @@ import ProjectsContainer from '@/components/ProjectsContainer'
 
 import { ContactDialog } from '@/components/Contact/ContactButton'
 
+import typescriptIcon from '@/assets/Frontend/typescript.svg'
+import nodeIcon from '@/assets/Backend/nodejs.svg'
+import restApiIcon from '@/assets/Backend/restAPi.svg'
+import n8nIcon from '@/assets/Backend/n8n.png'
+import xmlIcon from '@/assets/Backend/xml.svg'
+import Experience from '@/components/Experience'
+
 export default function Home() {
   const [isClient, setIsClient] = useState(false)
 
@@ -148,12 +155,12 @@ export default function Home() {
             </span>
             <span className="xl:text-5xl text-2xl">Experiências</span>
           </div>
-
+          <Experience />
           <div className="mt-3.5 space-y-4">
             <div className="xl:text-3xl flex flex-col text-ametista">
-              <span>GPCA | Desenvolvedor (Voluntário)</span>
+              <span>GPCA | Desenvolvedor</span>
               <span className="text-white">
-                📍 Brasília - DF | 05/2024 - Presente
+                📍 Brasília - DF | 05/2024 - 04/2025
               </span>
             </div>
             <div className="xl:text-2xl space-y-4 xl:space-y-0 flex flex-col">
@@ -175,7 +182,7 @@ export default function Home() {
                 Gestão de dados utilizando PostgreSQL/AWS RDS
               </span>
             </div>
-            <div className="mt-3 flex flex-wrap space-x-3 space-y-3">
+            <div className="mt-3 flex flex-wrap space-x-3 md:space-y-0 sm:space-y-2 ">
               <div className="flex space-x-2">
                 <Image src={pythonIcon} width={40} height={40} alt="python" />
                 <span className="border-2  border-ametista rounded text-lavanda flex items-center justify-center w-20 h-10">
